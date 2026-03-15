@@ -99,11 +99,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .app-bar__title {
+  color: #4dd0e1;
   font-size: 22px;
   font-weight: 500;
   letter-spacing: -.2px;
-  color: var(--md-on-surface);
+  color: #cd92d7;
 }
+
 
 .app-bar__actions {
   display: flex;
@@ -165,7 +167,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero__title {
-  font-size: clamp(32px, 5vw, 52px);
+  font-size: clamp(64px, 5vw, 52px);
   font-weight: 300;
   line-height: 1.15;
   letter-spacing: -.5px;
@@ -174,8 +176,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero__accent {
-  color: var(--md-primary);
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .hero__subtitle {
